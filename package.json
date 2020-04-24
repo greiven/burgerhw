@@ -1,0 +1,37 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "Burger App ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greiven/burger-app.git"
+  },
+  "keywords": [
+    "Burger",
+    "App",
+    "GIthub",
+    "Webdeveloper"
+  ],
+  "author": "Greivin Badilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greiven/burger-app/issues"
+  },
+  "homepage": "https://github.com/greiven/burger-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "timeago": "^1.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
